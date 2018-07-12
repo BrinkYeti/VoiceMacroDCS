@@ -119,8 +119,8 @@
       <OnlyOneThread>false</OnlyOneThread>
       <MacroActions>
         <MacroAction>
-          <MacroType>5</MacroType>
-          <StartStopListen>1</StartStopListen>
+          <MacroType>14</MacroType>
+          <StartStopIgnoreCommands>0</StartStopIgnoreCommands>
         </MacroAction>
       </MacroActions>
     </Commands>
@@ -159,8 +159,8 @@
       <OnlyOneThread>false</OnlyOneThread>
       <MacroActions>
         <MacroAction>
-          <MacroType>5</MacroType>
-          <StartStopListen>0</StartStopListen>
+          <MacroType>14</MacroType>
+          <StartStopIgnoreCommands>1</StartStopIgnoreCommands>
         </MacroAction>
       </MacroActions>
     </Commands>
@@ -3949,7 +3949,7 @@
     <Commands>
       <GUID>eebfcdc0-ac33-442a-895a-9267da884728</GUID>
       <Group>ground_crew</Group>
-      <RecocnitionText>Ground Air Supply Apply;Apply ground air supply;Apply to disconnect ground air supply</RecocnitionText>
+      <RecocnitionText>Ground Air Supply Apply;Apply ground air supply;Request to apply ground air supply;Request to apply air</RecocnitionText>
       <ShortCut>
         <Key>None</Key>
         <OnKeyAction>0</OnKeyAction>
